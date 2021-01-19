@@ -1,0 +1,12 @@
+com/ssafy/restapi/RestapiApplication.java
+ com.ssafy.restapi.RestapiApplication
+com/ssafy/restapi/controller/TestController.java
+ com.ssafy.restapi.controller.TestController
+com/ssafy/restapi/model/Member.java
+ com.ssafy.restapi.model.Member
+com/ssafy/restapi/repository/MemberRepository.java
+ com.ssafy.restapi.repository.MemberRepository
+com/ssafy/restapi/configuration/DBConfig.java
+ com.ssafy.restapi.configuration.DBConfig
+com/ssafy/restapi/controller/MemberController.java
+ com.ssafy.restapi.controller.MemberController

@@ -1,0 +1,18 @@
+server:
+  port: 3333
+
+spring:
+  data:
+    maria:
+      jdbc-url: jdbc:mariadb://rds-mariadb.chalcte67duy.ap-northeast-2.rds.amazonaws.com:3306/ssafyweb?useUnicode=yes&characterEncoding=UTF-8
+      driver-class-name: org.mariadb.jdbc.Driver
+      username: admin
+      password: admin123
+  jpa:
+    properties:
+      hibernate:
+        #show_sql: true
+        format_sql: true
+        temp:
+          use_jdbc_metadata_defaults: false
+    generate-ddl: true
